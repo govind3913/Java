@@ -1,6 +1,7 @@
 //Find the longest substring wihtout repeating characters
 import java.util.*;
-public class Main
+
+public class LongestSubstring
 {
     public static void printLongestSubstring(String s)
   {

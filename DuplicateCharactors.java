@@ -7,7 +7,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 
-public class Main
+public class DuplicateCharactors
 {
 	public static void main(String[] args) {
 		String inputString = "Java Concept Of The Day".replaceAll("\\s+", "").toLowerCase();
@@ -35,8 +35,5 @@ public class Main
 	}
 }
 
-o/p : Non repeating Characters[j, v, n, p, f, h, d, y]
-charators count{j=1, a=3, v=1, c=2, o=2, n=1, e=2, p=1, t=2, f=1, h=1, d=1, y=1}
-Duplicate charactors[a, c, o, e, t]
 
 

@@ -1,6 +1,6 @@
 import java.util.stream.Stream;
 
-public class Main
+public class Sample
 {
 	public static void main(String[] args) {
 		Stream.iterate(new int[] {0, 1}, f -> new int[] {f[1], f[0]+f[1]})
@@ -10,4 +10,4 @@ public class Main
 
 	}
 }
-o/p : 0 1 1 2 3 5 8 13 21 34 
+
